@@ -31,6 +31,12 @@ Using:
 - **Load disturbance**: speed dips briefly then recovers due to feedback
 - **Saturation**: performance limited by actuator constraints
 - **Anti-windup**: prevents integrator windup during saturation, improving recovery
+## Results
+
+![Open vs Closed](Figures/open_vs_closed.png)
+![Disturbance Rejection](Figures/disturbance_rejection.png)
+![Saturation + Anti-windup](Figures/saturation_antiwindup.png)
+
 
 ## Files
 - `MATLAB/` contains scripts for modeling, PID control, tuning, and robustness testing
