@@ -33,9 +33,15 @@ Using:
 - **Anti-windup**: prevents integrator windup during saturation, improving recovery
 ## Results
 
-![Open vs Closed](Figures/open_vs_closed.png)
-![Disturbance Rejection](Figures/disturbance_rejection.png)
-![Saturation + Anti-windup](Figures/saturation_antiwindup.png)
+### Open-loop vs Closed-loop Response
+![Open vs Closed](FIGURES/open_vs_closed.png)
+
+### Load Disturbance Rejection
+![Disturbance Rejection](FIGURES/disturbance_rejection.png)
+
+### Saturation and Anti-windup
+![Anti-windup](FIGURES/saturation_antiwindup.png)
+
 
 
 ## Files
