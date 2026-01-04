@@ -1,0 +1,8 @@
+## Engineering Notes
+1) Started with an approximate motor model to design a stable controller.
+2) Verified open-loop limitations (slow response, poor tracking).
+3) Designed PID and validated closed-loop tracking.
+4) Added load disturbance to test disturbance rejection.
+5) Converted controller to discrete-time (Ts = 0.01 s) to match embedded reality.
+6) Added actuator saturation and observed performance limits.
+7) Added anti-windup compensation to prevent integrator windup under saturation.
